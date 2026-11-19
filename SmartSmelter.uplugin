@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "Smart Smelter",
+	"Description": "Smelters set their own recipe from whatever ore arrives on the input belt. Switch the belt from Iron Ore to Copper Ore and the Smelter finishes what is inside, then switches to Copper Ingot. Never deletes items: a Smelter only switches once it is empty.",
+	"Category": "Modding",
+	"CreatedBy": "leanwrldd",
+	"CreatedByURL": "https://github.com/leanwrldd/SmartSmelter",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"BuiltInInitialFeatureState": "Active",
+	"Modules": [
+		{
+			"Name": "SmartSmelter",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "SML",
+			"Enabled": true,
+			"SemVersion": "^3.12.0"
+		}
+	],
+	"SemVersion": "1.0.0",
+	"GameVersion": ">=491125"
+}
